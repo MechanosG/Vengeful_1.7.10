@@ -1,0 +1,1503 @@
+{
+  "name": "Beyond Reality Custom",
+  "pack": "Beyond Reality",
+  "version": "2.2.3C",
+  "minecraftVersion": "1.7.10",
+  "memory": 0,
+  "permgen": 256,
+  "jarOrder": "forge-1.7.10-10.13.2.1236-universal.jar",
+  "librariesNeeded": "launchwrapper-1.11.jar,asm-all-5.0.3.jar,akka-actor_2.11-2.3.3.jar,config-1.2.1.jar,scala-actors-migration_2.11-1.1.0.jar,scala-compiler-2.11.1.jar,scala-continuations-library_2.11-1.0.2.jar,scala-continuations-plugin_2.11.1-1.0.2.jar,scala-library-2.11.1.jar,scala-parser-combinators_2.11-1.0.1.jar,scala-reflect-2.11.1.jar,scala-swing_2.11-1.0.1.jar,scala-xml_2.11-1.0.2.jar,jopt-simple-4.5.jar,lzma-0.0.1.jar,guava-16.0.jar,commons-lang-2.6.jar,realms-1.3.5.jar,commons-compress-1.8.1.jar,httpclient-4.3.3.jar,commons-logging-1.1.3.jar,httpcore-4.3.2.jar,vecmath-1.3.1.jar,trove4j-3.0.3.jar,icu4j-core-mojang-51.2.jar,codecjorbis-20101023.jar,codecwav-20101023.jar,libraryjavasound-20101123.jar,librarylwjglopenal-20100824.jar,soundsystem-20120107.jar,netty-all-4.0.10.Final.jar,commons-lang3-3.1.jar,commons-io-2.4.jar,commons-codec-1.9.jar,jinput-2.0.5.jar,jutils-1.0.0.jar,gson-2.2.4.jar,authlib-1.5.16.jar,log4j-api-2.0-beta9.jar,log4j-core-2.0-beta9.jar,lwjgl-2.9.1.jar,lwjgl_util-2.9.1.jar,twitch-5.16.jar",
+  "extraArguments": "--tweakClass\u003dcpw.mods.fml.common.launcher.FMLTweaker",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}",
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "assets": "1.7.10",
+  "isConverted": true,
+  "isDev": false,
+  "isPlayable": true,
+  "newLaunchMethod": true,
+  "mods": [
+    {
+      "name": "Minecraft Forge",
+      "version": "10.13.2.1236",
+      "optional": false,
+      "file": "forge-1.7.10-10.13.2.1236-universal.jar",
+      "type": "forge",
+      "colour": {
+        "value": -1310976,
+        "falpha": 0.0
+      },
+      "description": "Minecraft Forge is a modding API used by alot of mods.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Applied Energistics 2",
+      "version": "rv2-beta-6",
+      "optional": false,
+      "file": "appliedenergistics2-rv2-beta-6.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Applied Energistics 2 is a Minecraft Mod which contains a large amount of new content, mostly centered around the concept of using Energy, and the Transformation of Energy in a unique way.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "AutoMagy",
+      "version": "0.17.1",
+      "optional": false,
+      "file": "Automagy-1.7.10-0.17.1.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Golems Logistic\u0027s Together with quaility of life additions to thaumcraft \u003d Sweet!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "BiblioCraft",
+      "version": "1.9.1",
+      "optional": false,
+      "file": "BiblioCraft[v1.9.1][MC1.7.10].jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "BiblioCraft adds fancy storage containers including bookcases, armor stands, potion shelves, regular shelves, tool racks, glass weapon cases, wooden desks and wooden chest labels and now add machines, redstone interactions, and eyeware! New in 1.3: Fancy lamps and golden lanterns. Also Tables and enchanted plates!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "BiblioWoods Highlands Edition",
+      "version": "1.4",
+      "optional": false,
+      "file": "BiblioWoods[Highlands][v1.4].jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Adds support for 4 varietys of wood from Highlands for 8 of the wooden block in BiblioCraft.",
+      "disabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "BiblioWoods Natura Edition",
+      "version": "1.4",
+      "optional": false,
+      "file": "BiblioWoods[Natura][v1.4].jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Adds support for 13 varietys of wood from Natura for 8 of the wooden block in BiblioCraft.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "BiblioWoods Forestry Edition",
+      "version": "1.7",
+      "optional": false,
+      "file": "BiblioWoods[Forestry][v1.7].jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Adds support for 24 varietys of wood from Forestry for 8 of the wooden block in BiblioCraft.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Big Reactors",
+      "version": "0.4.0A",
+      "optional": false,
+      "file": "BigReactors-0.4.0A.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) power.  Special thanks: powercrystals, skyboy, King_Lemming, \u0026 Calclavia for example code.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Botania",
+      "version": "r1.3-148",
+      "optional": false,
+      "file": "Botania r1.3-148.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Botania is a magic tech mod based on nature.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Buildcraft",
+      "version": "6.2.6",
+      "optional": false,
+      "file": "buildcraft-6.2.6.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Extending Minecraft with pipes, auto-crafting, quarries, engines and much more!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Carpenter\u0027s Blocks",
+      "version": "v3.3.4.2",
+      "optional": false,
+      "file": "Carpenters Blocks v3.3.4.2 - MC 1.7.10.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Adds slopes and a variety of vanilla-inspired blocks that support covers, side covers, overlays, dyes and chiseled patterns.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Chisel 2",
+      "version": "2.2.1",
+      "optional": false,
+      "file": "Chisel 2-2.2.1.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Adds a chisel item that lets you carve blocks like cobblestone or sandstone. Adds two new blocks to world generation: marble and limestone, which can be be carved and crafted into many various building materials.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Computronics",
+      "version": "1.3.3",
+      "optional": false,
+      "file": "Computronics-1.7.10-1.3.3.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Computronics is a Minecraft mod that adds a set of computer peripherals",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Doom like Dungeon\u0027s",
+      "version": "1.4.0",
+      "optional": false,
+      "file": "DoomlikeDungeons-1.4.0-MC1.7.2.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Hard Core Dungeons",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Ender IO",
+      "version": "2.2.6.317",
+      "optional": false,
+      "file": "EnderIO-1.7.10-2.2.6.317.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Compact conduits, painted things and access to your stuff through an eye of ender.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Ender Zoo",
+      "version": "1.0.9.18",
+      "optional": false,
+      "file": "EnderZoo-1.7.10-1.0.9.18.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Ender Io\u0027s Mobs and more",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "EnhancedPortals 3",
+      "version": "3.0.9",
+      "optional": false,
+      "file": "EnhancedPortals_1.7.10-universal-3.0.9.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "EnhancedPortals started out as a mod designed to give you a bit more customization for your Nether portals. You could increase the size, shape, or change it\u0027s colour. EnhancedPortals 3 takes this even further by leaving behind the focus of being a fully functional, boring, Nether portal.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "ExtraCells",
+      "version": "2.2.23b43",
+      "optional": false,
+      "file": "ExtraCells-1.7.10-2.2.23b43.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "A Mod that adds 4 new ME Storage Cells and some other cool stuff to AE.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Extra Utilities",
+      "version": "2.2.1",
+      "optional": false,
+      "file": "extrautilities-1.2.0(1).jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "A collection of useful blocks and items",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Factorization",
+      "version": "1.7.10-0.8.88.7",
+      "optional": false,
+      "file": "Factorization-1.7.10-0.8.88.7.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Auto-crafting, ore processing, barrels, and other toys",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Forestry",
+      "version": "3.3.0.6",
+      "optional": false,
+      "file": "forestry_1.7.10-3.3.0.6.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Bees, Trees, and more",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Forge MultiPart",
+      "version": "1.1.1.317",
+      "optional": false,
+      "file": "ForgeMultipart-1.7.10-1.1.1.317-universal.jar",
+      "type": "dependency",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "MultiParts",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Framez",
+      "version": "0.2-12",
+      "optional": false,
+      "file": "Framez-1.7.10-0.2-12-universal.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Moving frames with microblock and power support!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "GalacticraftCore",
+      "version": "3.0.6.250",
+      "optional": false,
+      "file": "GalacticraftCore-1.7-3.0.6.250.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Blast off to the stars. Makes a space base or a space station. Discover new worlds and exicting dungeons.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Galacticraft Planets",
+      "version": "3.0.6.250",
+      "optional": false,
+      "file": "Galacticraft-Planets-1.7-3.0.6.250.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Mars addon for Galacticraft.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Gendustry",
+      "version": "1.4.4.48",
+      "optional": false,
+      "file": "gendustry-mc1710-1.4.4.48.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Gendustry",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Hardcore Ender Expansion",
+      "version": "1.6.7",
+      "optional": false,
+      "file": "HardcoreEnderExpansion  MC-1.7.10  v1.6.7.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Hardcore Ender Expansion offers unique, new content across the End.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Hats",
+      "version": "4.0.1",
+      "optional": false,
+      "file": "Hats-4.0.1.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Adds a bunch of hats, as wells as the ability to add more, into Minecraft",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "HatStand",
+      "version": "4.0.0",
+      "optional": false,
+      "file": "HatStand-4.0.0.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Addon for Hats, a Hat Stand block to display hats.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Iron Chests 2",
+      "version": "6.0.62.742",
+      "optional": false,
+      "file": "ironchest-1.7.10-6.0.62.742-universal.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Tiered chest from iron to diamond with different sizes",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "IronChestMinecarts",
+      "version": "1.0.0",
+      "optional": false,
+      "file": "IronChestMinecarts-1.0.0.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Iron chest inside minecrafts !",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "JABBA",
+      "version": "1.2.0a",
+      "optional": false,
+      "file": "Jabba-1.2.0a_1.7.10.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Just Another Better Barrel Attempt ",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Logistics Pipes",
+      "version": "0.8.2.89",
+      "optional": false,
+      "file": "logisticspipes-0.8.2.89.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Logistics Pipes is an extensive overhaul of the Buildcraft pipe system. It allows for better distribution of items via pipes, more organised stockkeeping and easier automated crafting.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "malisisdoors",
+      "version": "1.3.3",
+      "optional": false,
+      "file": "malisisdoors-1.7.10-1.3.3.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Animated,Sliding and Custom doors!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "MineFactory Reloaded",
+      "version": "[1.7.10]2.8.0RC6-11",
+      "optional": false,
+      "file": "MineFactoryReloaded-[1.7.10]2.8.0RC6-11.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Automate everything!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "MineTweaker 3",
+      "version": "3.0.9C",
+      "optional": false,
+      "file": "MineTweaker3-1.7.10-3.0.9C.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "MineTweaker is a mod that enables players and server admins to alter recipes.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "ModTweaker",
+      "version": "6.0",
+      "optional": false,
+      "file": "ModTweaker-1.7.X-0.6-0.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "ModTweaker is an addon for MineTweaker 3.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "MachineMuse\u0027s Modular Powersuits",
+      "version": "0.11.0.176",
+      "optional": false,
+      "file": "ModularPowersuits-0.11.0.176.jar",
+      "type": "mods",
+      "description": "A mod which adds modular power armor, power tool, and a tinker table to configure them. Uses UniversalElectricty or IC2 for energy.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "MrCrayfish Furniture Mod",
+      "version": "3.4.4",
+      "optional": false,
+      "file": "MrCrayfishFurnitureModv3.4.4(1.7.10).jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "This mod adds in what Minecraft has been missing for years, furniture! It includes over 40 pieces of furniture to decorate your bedroom, kitchen, living room and even your garden!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Natura",
+      "version": "2.2.0.1",
+      "optional": false,
+      "file": "natura-1.7.10-2.2.0.1.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Natura is a mod that aims to spice up the world with interesting worldgen.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "NotEnoughItems",
+      "version": "1.0.3.77",
+      "optional": false,
+      "file": "NotEnoughItems-1.7.10-1.0.3.77-universal.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Allows you to quickly and easily look up recipes and uses for any item in Minecraft included modded items. Also allows easy spawning of items and a range of one click utilities.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "NEI Addons",
+      "version": "1.12.3.11",
+      "optional": false,
+      "file": "neiaddons-mc1710-1.12.3.11.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Adds in mod integration into NEI by showing bee breeding information as well as other helpful mod plugins.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "NEIIntegration",
+      "version": "1.0.3",
+      "optional": false,
+      "file": "NEIIntegration-MC1.7.10-1.0.3.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Replaces NEI Plugins",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "OpenBlocks",
+      "version": "1.7.10-1.3-snapshot-514",
+      "optional": false,
+      "file": "OpenBlocks-1.7.10-1.3-snapshot-514.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "OpenBlocks is a random collection of ideas - ideas the community have suggested, or ideas we thought \"Why hasn\u0027t anyone done that yet?\". There is no theme, it\u0027s quite random. It\u0027s not even just blocks, as the name suggests!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Open Computers",
+      "version": "1.4.2.16",
+      "optional": false,
+      "file": "OpenComputers-MC1.7.10-1.4.2.16-universal.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "This mod adds programmable, modular and persistent computers to the game.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Pam\u0027s Harvestcraft",
+      "version": "1.7.10C",
+      "optional": false,
+      "file": "Pams HarvestCraft 1.7.10c.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Expanded food system including tons of new crops!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "PneumaticCraft",
+      "version": "1.4.4-47",
+      "optional": false,
+      "file": "PneumaticCraft-1.7.10-1.4.4-47-universal.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "A technical mod all about pneumatics!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Power Converters",
+      "version": "3.0.2.38",
+      "optional": false,
+      "file": "PowerConverters-1.7.10-3.0.2.38.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Take control of your power",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Pressure Pipes",
+      "version": "1.0.1.49",
+      "optional": false,
+      "file": "pressure-mc1710-1.0.1.49.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Pressurized Pipes and tanks",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Primitive Mobs",
+      "version": "1.1Test",
+      "optional": false,
+      "file": "primitivemobs-1.1test_a.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Primitive Mobs is a mod that adds a variety of clever mobs, either fully original, inspired by other game franchises or brought back from outdated mods.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Railcraft",
+      "version": "9.4.0.0",
+      "optional": false,
+      "file": "Railcraft_1.7.10-9.4.0.0.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Redefine your rails",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Random Things",
+      "version": "2.2.2",
+      "optional": false,
+      "file": "RandomThings-2.2.2.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "A compilation of different blocks and items.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Remain In Motion",
+      "version": "2.3.1",
+      "optional": false,
+      "file": "RemainInMotion-2.3.1.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "A reimplementation of Redpower frames, with more flexibility and functionality, and including many new types of frames.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Statues",
+      "version": "2.1.4",
+      "optional": false,
+      "file": "statues-1.7.10-2.1.4.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Adds player statues and showcases",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Steve\u0027s Carts 2",
+      "version": "2.0.0.b18",
+      "optional": false,
+      "file": "StevesCarts2.0.0.b18.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Steve\u0027s Carts 2 introduces a modular system where you can build a huge amount of carts(hundreds of millions) by combining the parts you want.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Steve\u0027s Factory Manager",
+      "version": "A93",
+      "optional": false,
+      "file": "StevesFactoryManagerA93.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "This mod allows you to move items between different inventories (machines and storage blocks) by specifying it using commands in a flow chart like way.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Steve\u0027s Workshop",
+      "version": "0.5.1",
+      "optional": false,
+      "file": "StevesWorkshop-0.5.1.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "This mod adds a production table that contains multiple modular crafting tables and/or furnaces.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Super Crafting Frame",
+      "version": "1.7.10.1",
+      "optional": false,
+      "file": "supercraftingframe-1.7.10.1.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Super Crafting Frame is a simple mod that helps with repetitive crafting tasks during early game.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Sync",
+      "version": "4.0.0",
+      "optional": false,
+      "file": "Sync-4.0.0.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "This mod provides clones, or as we like to call it, \u0027shells\u0027. These shells are basically a new individual, with their own inventory, experience level, and even gamemode.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Thaumcraft",
+      "version": "4.2.2.1",
+      "optional": false,
+      "file": "Thaumcraft-1.7.10-4.2.2.1.jar",
+      "type": "mods",
+      "colour": {
+        "value": -4783873,
+        "falpha": 0.0
+      },
+      "description": "This is what this mod is all about - drawing magic from physical objects in the form of Essentia and reshaping it to perform miracles.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "ThaumCraft Gates",
+      "version": "1.4.0",
+      "optional": false,
+      "file": "ThaumcraftGates-1.4.0.jar",
+      "type": "mods",
+      "colour": {
+        "value": -4783873,
+        "falpha": 0.0
+      },
+      "description": "Adds thaumcraft gates to buildcraft",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Thaumic Tinkerer",
+      "version": "2.5-1.7.10-437",
+      "optional": false,
+      "file": "ThaumicTinkerer-2.5-1.7.10-437.jar",
+      "type": "mods",
+      "colour": {
+        "value": -4783873,
+        "falpha": 0.0
+      },
+      "description": "An addon to Thaumcraft 4, implementing new content. This mod is a spiritual successor to Elemental Tinkerer. Researches that come from this mod are prefixed by [TT]. Build 24.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "The Twilight Forest",
+      "version": "2.3.2",
+      "optional": false,
+      "file": "twilightforest-1.7.10-2.3.2.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "An enchanted forest dimension.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Waila",
+      "version": "1.5.7a",
+      "optional": false,
+      "file": "Waila-1.5.7a_1.7.10.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "WAILA (What Am I Looking At) is a mod that shows you what you are looking at. ",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "WailaPlugins",
+      "version": "0.0.1-10",
+      "optional": false,
+      "file": "WAILAPlugins-MC1.7.10-0.0.1-10.jar",
+      "type": "mods",
+      "colour": {
+        "value": -9470226,
+        "falpha": 0.0
+      },
+      "description": "Addon for waila",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Project Blue",
+      "version": "1.1.2",
+      "optional": false,
+      "file": "ProjectBlue-1.1.2-mc1.7.10.jar",
+      "type": "mods",
+      "colour": {
+        "value": -4979708,
+        "falpha": 0.0
+      },
+      "description": "Addon for project red",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "ProjectRed-Base",
+      "version": "4.5.8.59",
+      "optional": false,
+      "file": "ProjectRed-1.7.10-4.5.8.59-Base.jar",
+      "type": "mods",
+      "colour": {
+        "value": -4979708,
+        "falpha": 0.0
+      },
+      "description": "This mod gives you the tools you need to push redstone to its true potential.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "ProjectRed-Compat",
+      "version": "4.5.8.59",
+      "optional": false,
+      "file": "ProjectRed-1.7.10-4.5.8.59-Compat.jar",
+      "type": "mods",
+      "colour": {
+        "value": -4979708,
+        "falpha": 0.0
+      },
+      "description": "This mod gives you the tools you need to push redstone to its true potential.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "ProjectRed-Integration",
+      "version": "4.5.8.59",
+      "optional": false,
+      "file": "ProjectRed-1.7.10-4.5.8.59-Integration.jar",
+      "type": "mods",
+      "colour": {
+        "value": -4979708,
+        "falpha": 0.0
+      },
+      "description": "This mod gives you the tools you need to push redstone to its true potential.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "ProjectRed-Lighting",
+      "version": "4.5.8.59",
+      "optional": false,
+      "file": "ProjectRed-1.7.10-4.5.8.59-Lighting.jar",
+      "type": "mods",
+      "colour": {
+        "value": -4979708,
+        "falpha": 0.0
+      },
+      "description": "This mod gives you the tools you need to push redstone to its true potential.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "ProjectRed-World",
+      "version": "4.5.8.59",
+      "optional": false,
+      "file": "ProjectRed-1.7.10-4.5.8.59-World.jar",
+      "type": "mods",
+      "colour": {
+        "value": -4979708,
+        "falpha": 0.0
+      },
+      "description": "This mod gives you the tools you need to push redstone to its true potential.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Advanced Solar Panel",
+      "version": "3.5.1",
+      "optional": false,
+      "file": "AdvancedSolarPanel-1.7.10-3.5.1.jar",
+      "type": "mods",
+      "colour": {
+        "value": -6656,
+        "falpha": 0.0
+      },
+      "description": " Advanced Solar Panels + Quantum Generator + Solar helmets",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Compact Solars",
+      "version": "4.4.39.315",
+      "optional": false,
+      "file": "CompactSolars-1.7.10-4.4.39.315-universal.jar",
+      "type": "mods",
+      "colour": {
+        "value": -6656,
+        "falpha": 0.0
+      },
+      "description": "Compact your solars into a single block with just as much uhmp",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "IC2Nuclear Control2",
+      "version": "2.0.8c",
+      "optional": false,
+      "file": "IC2NuclearControl-2.0.8c.jar",
+      "type": "mods",
+      "colour": {
+        "value": -6656,
+        "falpha": 0.0
+      },
+      "description": "It gives players the ability to build efficient monitoring and control systems for IndustrialCraft 2 Nuclear Reactors. Items in IC2 Nuclear Control can monitor temperature and conditions of the reactor (as well as other IC2 objects) and respond accordingly, whether by turning off the reactor, or by setting off a Howler Alarm to warn nearby players of their impending doom.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "IHL Tools \u0026 Machines",
+      "version": "0.522",
+      "optional": false,
+      "file": "ihl-tools_n_machines-0.522-1.7.10.jar",
+      "type": "mods",
+      "colour": {
+        "value": -6656,
+        "falpha": 0.0
+      },
+      "description": "Extended water physics, Sticky resin production branch, Industrial fan and much more",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "IndustrialCraft 2",
+      "version": "2.2.658",
+      "optional": false,
+      "file": "industrialcraft-2-2.2.658-experimental.jar",
+      "type": "mods",
+      "colour": {
+        "value": -6656,
+        "falpha": 0.0
+      },
+      "description": "Industrial age themed expansion for Minecraft.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "GalactiGreg",
+      "version": "0.5",
+      "optional": false,
+      "file": "GalacticGreg-0.5.jar",
+      "type": "mods",
+      "colour": {
+        "value": -6656,
+        "falpha": 0.0
+      },
+      "description": "Adds gregs ores to GalactiCraft\u0027s Dimensions",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "GraviSuite",
+      "version": "2.0.3",
+      "optional": false,
+      "file": "GraviSuite-1.7.10-2.0.3.jar",
+      "type": "mods",
+      "colour": {
+        "value": -6656,
+        "falpha": 0.0
+      },
+      "description": "And now after long years of research we represent you our new development a gravitational suite, based at alien technology. ",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Gregtech",
+      "version": "5.07.06",
+      "optional": false,
+      "file": "gregtech_1.7.10-5.07.06.jar",
+      "type": "mods",
+      "colour": {
+        "value": -6656,
+        "falpha": 0.0
+      },
+      "description": "One of the biggest mods available. This mod single handedly extends your gameplay experience for days",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "AsieLib",
+      "version": "0.3.6",
+      "optional": false,
+      "file": "AsieLib-1.7.10-0.3.6.jar",
+      "type": "mods",
+      "description": "Library for Asie mods",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Baubles",
+      "version": "1.0.1.10",
+      "optional": false,
+      "file": "Baubles-1.7.10-1.0.1.10.jar",
+      "type": "dependency",
+      "description": "Baubles is a small addon mod and api that is intended to be used by other mods to add additional inventory slots to a character",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "BdLib",
+      "version": "1.6.0.35(1)",
+      "optional": false,
+      "file": "bdlib-mc1710-1.6.0.35(1).jar",
+      "type": "mods",
+      "description": "This is a collection of generic code used by bdew\u0027s other mods",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Beyond Reality Core",
+      "version": "1.5.4",
+      "optional": false,
+      "file": "beyondrealitycore-1.7.10-1.5.4.jar",
+      "type": "mods",
+      "colour": {
+        "value": -10991873,
+        "falpha": 0.0
+      },
+      "description": "Added features for the Beyond Reality ModPack",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "CodeChickenCore",
+      "version": "1.0.4.29",
+      "optional": false,
+      "file": "CodeChickenCore-1.7.10-1.0.4.29-universal.jar",
+      "type": "mods",
+      "description": "Core library for all ChickenBones mods",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "CodeChickenLib",
+      "version": "1.1.1.110",
+      "optional": false,
+      "file": "CodeChickenLib-1.7.10-1.1.1.110-universal.jar",
+      "type": "dependency",
+      "description": "Needed for ChickenBones mods",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "CoFH Core",
+      "version": "[1.7.10]3.0.0B9-53",
+      "optional": false,
+      "file": "CoFHCore-[1.7.10]3.0.0B9-53.jar",
+      "type": "mods",
+      "description": "Framework required for all Team CoFH mods.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Commons-code",
+      "version": "1.9",
+      "optional": false,
+      "file": "commons-codec-1.9.jar",
+      "type": "dependency",
+      "description": "Core File",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "commons-compress",
+      "version": "1.8.1",
+      "optional": false,
+      "file": "commons-compress-1.8.1.jar",
+      "type": "dependency",
+      "description": "Core File",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "ejml",
+      "version": "0.23",
+      "optional": false,
+      "file": "ejml-0.23.jar",
+      "type": "ic2lib",
+      "description": "Lib for IC2",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "iChunUtil",
+      "version": "4.0.0",
+      "optional": false,
+      "file": "iChunUtil-4.0.0.jar",
+      "type": "mods",
+      "description": "Shared library mod required by several of iChun\u0027s Mods.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "malisiscore",
+      "version": "0.10.3",
+      "optional": false,
+      "file": "malisiscore-1.7.10-0.10.3.jar",
+      "type": "mods",
+      "description": "Core for Malisis mods",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Mantle",
+      "version": "0.3.2",
+      "optional": false,
+      "file": "Mantle-1.7.10-0.3.2.jar",
+      "type": "mods",
+      "description": "Tinkers Construct Library",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Micdoodle8 Core",
+      "version": "3.0.6.250",
+      "optional": false,
+      "file": "MicdoodleCore-1.7-3.0.6.250.jar",
+      "type": "mods",
+      "description": "Provides core features of Micdoodle8\u0027s mods",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "MrTJPCore",
+      "version": "1.0.3.5",
+      "optional": false,
+      "file": "MrTJPCore-1.7.10-1.0.3.5-universal.jar",
+      "type": "dependency",
+      "colour": {
+        "value": -4979708,
+        "falpha": 0.0
+      },
+      "description": "Core for Project Red",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Numina",
+      "version": "0.4.0.100",
+      "optional": false,
+      "file": "Numina-0.4.0.100.jar",
+      "type": "mods",
+      "description": "A common library of useful functions and utilities for dealing with Minecraft\u0027s source code.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "OpenMods Lib",
+      "version": "1.7.10-0.6-snapshot-269",
+      "optional": false,
+      "file": "OpenModsLib-1.7.10-0.6-snapshot-269.jar",
+      "type": "mods",
+      "description": "This is required for all of OpenBlocks mods.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "PlanetguyLib",
+      "version": "1.2",
+      "optional": false,
+      "file": "PlanetguyLib-1.2.jar",
+      "type": "mods",
+      "description": "Lib for remain In Motion",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "MineTweaker Scripts",
+      "version": "2.2.3C",
+      "optional": false,
+      "file": "scripts-2.2.3C.zip",
+      "type": "extract",
+      "description": "Scripts for MineTweaker",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Slick-Util",
+      "version": "1.0",
+      "optional": false,
+      "file": "slick-util.jar",
+      "type": "mods",
+      "description": "Slick-Util is a small library to enable you to load various image, sound and font formats for use with LWJGL.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "TTCore",
+      "version": "0.1.0-49",
+      "optional": false,
+      "file": "ttCore-MC1.7.10-0.1.0-49.jar",
+      "type": "mods",
+      "description": "Core mod",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Hats - Files",
+      "version": "4.0.0",
+      "optional": false,
+      "file": "hats-4.0.0.zip",
+      "type": "extract",
+      "description": "Adds a bunch of hats, as wells as the ability to add more, into Minecraft",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Biomes O\u0027 Plenty",
+      "version": "2.1.0.1034",
+      "optional": true,
+      "file": "BiomesOPlenty-1.7.10-2.1.0.1034-universal.jar",
+      "type": "mods",
+      "colour": {
+        "value": -1310976,
+        "falpha": 0.0
+      },
+      "description": "Adds 87 new, unique biomes!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "AppleCore",
+      "version": "1.0.2",
+      "optional": true,
+      "file": "AppleCore-mc1.7.10-1.0.2.jar",
+      "type": "mods",
+      "colour": {
+        "value": -10027264,
+        "falpha": 0.0
+      },
+      "description": "In BR this only serves as a client side mod. It allows the user to see more detailed information on anything invloving hunger",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Damage Indicators",
+      "version": "3.2.0",
+      "optional": true,
+      "file": "[1.7.10]DamageIndicatorsMod-3.2.0.jar",
+      "type": "mods",
+      "colour": {
+        "value": -10027264,
+        "falpha": 0.0
+      },
+      "description": "Displays the damage you inflict on creatures, as well as current health, name and potion effects.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "IC2 Backpack HUD",
+      "version": "3.0",
+      "optional": true,
+      "file": "IC2 Backpack HUD v3.0 - MC 1.7.10.zip",
+      "type": "mods",
+      "colour": {
+        "value": -10027264,
+        "falpha": 0.0
+      },
+      "description": "Provides visual charge meter for IndustrialCraft 2 electric armor items and health meter for other items.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "InpureCore",
+      "version": "1.0.0B8-31",
+      "optional": true,
+      "file": "INpureCore-[1.7.10]1.0.0B8-31.jar",
+      "type": "mods",
+      "colour": {
+        "value": -10027264,
+        "falpha": 0.0
+      },
+      "description": "Removes the clutter in NEI (IE 300 drums or 1000 multiblocks)",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Inventory Tweaks",
+      "version": "1.59-dev-156",
+      "optional": true,
+      "file": "InventoryTweaks-1.59-dev-156.jar",
+      "type": "mods",
+      "colour": {
+        "value": -10027264,
+        "falpha": 0.0
+      },
+      "description": "Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "JourneyMap",
+      "version": "5.0.1_Unlimited",
+      "optional": true,
+      "file": "JourneyMap5.0.1_Unlimited_MC1.7.10.jar",
+      "type": "mods",
+      "colour": {
+        "value": -10027264,
+        "falpha": 0.0
+      },
+      "description": "Real-time map in-game or in a web browser as you explore.",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Pyrolusite\u0027s GregTech Alternate Textures",
+      "version": "v1_21",
+      "optional": true,
+      "file": "pgtat_v1_21.zip",
+      "type": "resourcepack",
+      "colour": {
+        "value": -65476,
+        "falpha": 0.0
+      },
+      "description": "Alternate gregtech textures!",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Thaumcraft Nei Plugin",
+      "version": "1.6a",
+      "optional": true,
+      "file": "thaumcraftneiplugin-1.7.10-1.6a.jar",
+      "type": "mods",
+      "colour": {
+        "value": -10027264,
+        "falpha": 0.0
+      },
+      "description": "Nei Plugin for thaumcraft",
+      "disabled": false,
+      "userAdded": false
+    },
+    {
+      "name": "Flans Mod-1.7.10-4.9.0.jar",
+      "version": "Custom",
+      "optional": true,
+      "file": "Flans Mod-1.7.10-4.9.0.jar",
+      "type": "mods",
+      "disabled": false,
+      "userAdded": true
+    },
+    {
+      "name": "CoroUtil-1.1.1.jar",
+      "version": "Custom",
+      "optional": true,
+      "file": "CoroUtil-1.1.1.jar",
+      "type": "mods",
+      "disabled": false,
+      "userAdded": true
+    },
+    {
+      "name": "TooMuchRain-1.7.2-1.0.0-b5-universal.jar",
+      "version": "Custom",
+      "optional": true,
+      "file": "TooMuchRain-1.7.2-1.0.0-b5-universal.jar",
+      "type": "mods",
+      "disabled": false,
+      "userAdded": true
+    }
+  ]
+}
