@@ -8,7 +8,7 @@ guiScale:0
 particles:0
 bobView:true
 anaglyph3d:false
-advancedOpengl:true
+advancedOpengl:false
 maxFps:260
 fboEnable:true
 difficulty:2
@@ -182,7 +182,7 @@ key_Spell Fire:9
 key_Cast Magick/Clear Queue:-98
 key_None:0
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
