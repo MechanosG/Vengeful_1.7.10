@@ -42,6 +42,12 @@ Found creative tab: IC2 NuclearControl 2
 Found creative tab: jabba
 Found creative tab: JAKJ_RedstoneInMotion
 Found creative tab: Logistics_Pipes
+Found creative tab: Metallurgy.Tools
+Found creative tab: Metallurgy.Items
+Found creative tab: Metallurgy.Machines
+Found creative tab: Metallurgy.Blocks
+Found creative tab: Metallurgy.Armor
+Found creative tab: metallurgyCore.items
 Found creative tab: MineFactory Reloaded
 Found creative tab: food
 Found creative tab: natura.plants
@@ -90,8 +96,8 @@ Found creative tab: factorizationTab
 Found creative tab: tabFlan4
 Found creative tab: tabFlan0
 Found creative tab: tabFlan1
-Found creative tab: tabFlan2
 Found creative tab: tabFlan3
+Found creative tab: tabFlan2
 Found creative tab: framez
 Found creative tab: bdew.gendustry
 Found creative tab: bdew.samples
@@ -143,17 +149,17 @@ Found ItemStack minecraft:spawn_egg. 64xitem.monsterPlacer@0
 Loading: ThermalExpansion.js
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: tile.Decoration.BrickFancy_5
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.Decoration.BrickFancy_5
+getRandomMaterial called. Returned: tile.Decoration.BrickFancy_11
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.Decoration.BrickFancy_11
 Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: tile.Decoration.BrickFancy_13
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.Decoration.BrickFancy_13
+getRandomMaterial called. Returned: tile.Decoration.BrickFancy_14
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.Decoration.BrickFancy_14
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 1580
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1563
+getFacadesSize called. Returned: 1738
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 795
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor.
@@ -271,9 +277,9 @@ Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 1870
+getNumberOfTypes called. Returned: 2009
 The function override_item is deprecated. Please use override instead! This function will be removed in a future version!
-override called. Params: appliedenergistics2, item.ItemFacade, 854
+override called. Params: appliedenergistics2, item.ItemFacade, 418
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
