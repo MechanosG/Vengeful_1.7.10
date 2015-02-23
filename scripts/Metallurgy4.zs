@@ -2,15 +2,15 @@
 
 # Machine Frame
 recipes.remove(<Metallurgy:machine.frame:*>);
-recipes.addShaped(<Metallurgy:machine.frame:0>, [[<minecraft:iron_ingot:0>,<Metallurgy:bronze.ingot:0>,<minecraft:iron_ingot:0>],
-                                                [<Metallurgy:bronze.ingot:0>,<minecraft:iron_ingot:0>,<Metallurgy:bronze.ingot:0>],
-                                                [<minecraft:iron_ingot:0>,<Metallurgy:bronze.ingot:0>,<minecraft:iron_ingot:0>]]);
+recipes.addShaped(<Metallurgy:machine.frame:0>, [[<minecraft:iron_ingot>,<Metallurgy:bronze.ingot>,<minecraft:iron_ingot>],
+                                                [<Metallurgy:bronze.ingot>,<minecraft:iron_ingot>,<Metallurgy:bronze.ingot>],
+                                                [<minecraft:iron_ingot>,<Metallurgy:bronze.ingot>,<minecraft:iron_ingot>]]);
 												
 # Crusher
 recipes.remove(<Metallurgy:crusher:*>);
-recipes.addShaped(<Metallurgy:crusher:0>, [[<minecraft:diamond:0>,<minecraft:diamond:0>,<minecraft:diamond:0>],
-                                                [<minecraft:iron_ingot:0>,<Metallurgy:machine.frame:0>,<minecraft:iron_ingot:0>],
-                                                [<minecraft:iron_ingot:0>,<minecraft:furnace:0>,<minecraft:iron_ingot:0>]]);
+recipes.addShaped(<Metallurgy:crusher:0>, [[<minecraft:diamond>,<minecraft:diamond>,<minecraft:diamond>],
+                                                [<minecraft:iron_ingot>,<Metallurgy:machine.frame>,<minecraft:iron_ingot>],
+                                                [<minecraft:iron_ingot>,<minecraft:furnace>,<minecraft:iron_ingot>]]);
 
 												
 # TConstruct reference code just ignore this
