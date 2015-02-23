@@ -1,16 +1,20 @@
 # Metallurgy 4 Minetweaker Changes
 
+val iron = <ore:ingotIron>;
+val bronze = <ore:ingotBronze>;
+val diamond = <ore:gemDiamond>;
+
 # Machine Frame
 recipes.remove(<Metallurgy:machine.frame:*>);
-recipes.addShaped(<Metallurgy:machine.frame:0>, [[<minecraft:iron_ingot>,<Metallurgy:bronze.ingot>,<minecraft:iron_ingot>],
-                                                [<Metallurgy:bronze.ingot>,<minecraft:iron_ingot>,<Metallurgy:bronze.ingot>],
-                                                [<minecraft:iron_ingot>,<Metallurgy:bronze.ingot>,<minecraft:iron_ingot>]]);
+recipes.addShaped(<Metallurgy:machine.frame:0>, [[iron,bronze,iron],
+																			[bronze,iron,bronze],
+																			[iron,bronze,iron]]);
 												
 # Crusher
 recipes.remove(<Metallurgy:crusher:*>);
-recipes.addShaped(<Metallurgy:crusher:0>, [[<minecraft:diamond>,<minecraft:diamond>,<minecraft:diamond>],
-                                                [<minecraft:iron_ingot>,<Metallurgy:machine.frame>,<minecraft:iron_ingot>],
-                                                [<minecraft:iron_ingot>,<minecraft:furnace>,<minecraft:iron_ingot>]]);
+recipes.addShaped(<Metallurgy:crusher:0>, [[diamond,diamond,diamond],
+																[iron,<Metallurgy:machine.frame>,iron],
+																[iron,<minecraft:furnace>,iron]]);
 
 												
 # TConstruct reference code just ignore this
