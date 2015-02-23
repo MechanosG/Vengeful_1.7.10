@@ -10,7 +10,7 @@ recipes.addShaped(<Metallurgy:machine.frame:0>, [[<minecraft:iron_ingot:0>,<Meta
 recipes.remove(<Metallurgy:crusher:*>);
 recipes.addShaped(<Metallurgy:crusher:0>, [[<minecraft:diamond:0>,<minecraft:diamond:0>,<minecraft:diamond:0>],
                                                 [<minecraft:iron_ingot:0>,<Metallurgy:machine.frame:0>,<minecraft:iron_ingot:0>],
-                                                [<minecraft:iron_ingot:0>,<minecraft:furnace0>,<minecraft:iron_ingot:0>]]);
+                                                [<minecraft:iron_ingot:0>,<minecraft:furnace:0>,<minecraft:iron_ingot:0>]]);
 
 												
 # TConstruct reference code, just ignore this --
