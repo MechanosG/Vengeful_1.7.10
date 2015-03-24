@@ -9,12 +9,11 @@
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
-            "none"
+            "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+             
         ]
     },
     "tin": {
@@ -27,12 +26,11 @@
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
-            "none"
+            "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+             
         ]
     },
     "silver": {
@@ -48,12 +46,11 @@
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
-            "none"
+            "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+             
         ]
     },
     "lead": {
@@ -69,12 +66,11 @@
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
-            "none"
+            "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+             
         ]
     },
     "nickel": {
@@ -87,12 +83,11 @@
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
-            "none"
+            "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+             
         ]
     },
     "platinum": {
@@ -109,12 +104,11 @@
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
-            "none"
+            "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+             
         ]
     },
     "copperHigh": {
@@ -127,12 +121,11 @@
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
-            "none"
+            "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+             
         ]
     }
 }
