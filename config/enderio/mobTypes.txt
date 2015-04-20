@@ -1,275 +1,202 @@
-EvolvedCreeper
-Wolf
-BiomesOPlenty.Glob
-primitivemobs.BewitchedTome
-EvolvedSkeletonBoss
-TwilightForest.HydraHead
-Squid
-shadowmobs.chupacabra
-plainsmobs.roc
-infernomobs.cephignis
-TwilightForest.Hostile Wolf
-BiomesOPlenty.Rosester
-EnderDragon
-junglemobs.vespidqueen
-Thaumcraft.ThaumSlime
-saltwatermobs.skylus
-Thaumcraft.TaintedSheep
-Mob
-HardcoreEnderExpansion.ScorchedLens
-freshwatermobs.jengu
-Thaumcraft.CultistCleric
-primitivemobs.FestiveCreeper
-TwilightForest.Tiny Bird
-saltwatermobs.raiko
-junglemobs.geken
-Thaumcraft.Golem
-ihl.CollectorHeavyEntity
-Witch
-mountainmobs.jabberwock
-mountainmobs.yale
-desertmobs.joust
-Thaumcraft.Taintacle
-primitivemobs.Sheepman
-PneumaticCraft.Drone
-Natura.FlameSpiderBaby
-enderzoo.DireWolf
-infernomobs.khalk
-Thaumcraft.Pech
-desertmobs.clink
-MineFactoryReloaded.mfrEntityPinkSlime
-BiomesOPlenty.Wasp
-demonmobs.pinky
-swampmobs.dweller
-junglemobs.conba
-arcticmobs.reiver
-EvolvedSpider
-plainsmobs.kobold
-TwilightForest.Helmet Crab
-TwilightForest.Wild Boar
-TwilightForest.Death Tome
-HardcoreEnderExpansion.FireFiend
-primitivemobs.HauntedTool
-Silverfish
-Ozelot
-desertmobs.gorgomite
-Thaumcraft.TaintedPig
-Thaumcraft.TaintSpider
-Chicken
-TwilightForest.Tower Ghast
-shadowmobs.epion
-TwilightForest.Skeleton Druid
-TwilightForest.Unstable Ice Core
-WitherBoss
-shadowmobs.geist
-HardcoreEnderExpansion.EnderGuardian
-junglemobs.uvaraptor
-primitivemobs.LilyLurker
-TwilightForest.Fire Beetle
-desertmobs.manticore
-TwilightForest.Block&Chain Goblin
-TwilightForest.Twilight Lich
-Skeleton
-AlienVillager
-primitivemobs.OreGolem
-TwilightForest.King Spider
-MushroomCow
-LavaSlime
-TwilightForest.Mist Wolf
-TwilightForest.Boggard
-TwilightForest.Minoshroom
-RandomThings.spirit
-swampmobs.eyewig
-swampmobs.remobra
-swampmobs.lurker
-Thaumcraft.Firebat
-TConstruct.EdibleSlime
-HardcoreEnderExpansion.EnderDemon
-Thaumcraft.InhabitedZombie
-demonmobs.belph
-TwilightForest.Twilight Wraith
-SnowMan
-Thaumcraft.Wisp
-Slime
-demonmobs.trite
-Botania.botania:pixie
-Monster
-primitivemobs.Lily
-desertmobs.crusk
-TwilightForest.Questing Ram
-shadowmobs.grue
-TwilightForest.Forest Squirrel
-shadowmobs.phantom
-Thaumcraft.TaintedCreeper
-junglemobs.vespid
-Creeper
-Thaumcraft.TaintSpore
-TwilightForest.Wild Deer
-demonmobs.astaroth
-arcticmobs.wendigo
-primitivemobs.GroveSprite
-TwilightForest.Knight Phantom
-desertmobs.erepede
-saltwatermobs.abtu
-TwilightForest.Tower Golem
-Natura.NitroCreeper
-Thaumcraft.CultistPortal
-primitivemobs.BabySpider
-infernomobs.cinder
-arcticmobs.frostweaver
-primitivemobs.BrainSlime
-plainsmobs.makaalpha
-enderzoo.FallenMount
-TwilightForest.Pinch Beetle
-primitivemobs.LostMiner
-primitivemobs.FilchLizard
-primitivemobs.SupportCreeper
-Thaumcraft.TaintedVillager
-forestmobs.trent
-enderzoo.WitherCat
-TwilightForest.Ice Crystal
-Botania.botania:doppleganger
-HardcoreEnderExpansion.HomelandEnderman
-Zombie
-junglemobs.concapede
-demonmobs.behemoth
-TwilightForest.Stable Ice Core
-infernomobs.lobber
-PigZombie
-junglemobs.concapedesegment
-Thaumcraft.TaintedCow
-arcticmobs.arix
-Thaumcraft.TaintSwarmer
-HardcoreEnderExpansion.Endermage
-TwilightForest.Mosquito Swarm
-forestmobs.ent
-mountainmobs.beholder
-desertmobs.joustalpha
-TwilightForest.Loyal Zombie
-primitivemobs.TreasureSlime
-EvolvedZombie
-arcticmobs.serpix
-TwilightForest.Armored Giant
-BuildCraft|Core.bcRobot
-desertmobs.cryptzombie
-Thaumcraft.TaintSwarm
-primitivemobs.Minion
-saltwatermobs.lacedon
-Thaumcraft.CultistKnight
-BiomesOPlenty.JungleSpider
-saltwatermobs.ika
-Thaumcraft.CultistLeader
-TwilightForest.Giant Miner
-OpenBlocks.Luggage
-enderzoo.Enderminy
-Giant
-Sheep
-Pig
-TConstruct.Crystal
-HardcoreEnderExpansion.EnderEye
-Villager
-TwilightForest.Redcap
-Thaumcraft.TaintacleTiny
-primitivemobs.Summoner
-swampmobs.aspid
-forestmobs.shambler
-HardcoreEnderExpansion.ForestGhost
-primitivemobs.Chameleon
-EvolvedSkeleton
-TwilightForest.Tower Termite
-swampmobs.ghoulzombie
-plainsmobs.maka
-TwilightForest.Yeti
-HardcoreEnderExpansion.ParalyzedEnderman
-lycanitesmobs.fear
-BiomesOPlenty.Pixie
-minegicka3_888
-enderzoo.FallenKnight
-TwilightForest.Hedge Spider
-BiomesOPlenty.Bird
-enderzoo.WitherWitch
-TwilightForest.Yeti Boss
-TwilightForest.Forest Raven
-TwilightForest.Naga
-HardcoreEnderExpansion.VampireBat
-freshwatermobs.strider
-primitivemobs.TravelingMerchant
-primitivemobs.BlazingJuggernaut
-HardcoreEnderExpansion.AngryEnderman
-TwilightForest.Tower Boss
-junglemobs.tarantula
-TwilightForest.Penguin
-primitivemobs.MotherSpider
-Ghast
-HardcoreEnderExpansion.BabyEnderman
-TwilightForest.Mini Ghast
-TwilightForest.Snow Queen
-TwilightForest.Swarm Spider
-TwilightForest.SnowGuardian
-infernomobs.afrit
-TwilightForest.Redcap Sapper
-mountainmobs.geonach
-HardcoreEnderExpansion.FireGolem
-forestmobs.spriggan
-Natura.Imp
-Sludgeling
-forestmobs.arisaur
-primitivemobs.RocketCreeper
-plainsmobs.ventoraptor
-TwilightForest.Forest Bunny
-Thaumcraft.EldritchGolem
-Slimeling
-freshwatermobs.zephyr
-Spider
-Thaumcraft.TaintedChicken
-CaveSpider
-Bat
-Enderman
-swampmobs.ettin
-TwilightForest.Minotaur
-Blaze
-HardcoreEnderExpansion.Dragon
-Thaumcraft.MindSpider
-ihl.CollectorEntity
-TwilightForest.Twilight Kobold
-primitivemobs.MimicChest
-HardcoreEnderExpansion.InfestedBat
-primitivemobs.SkeletonWarrior
-enderzoo.ConcussionCreeper
-HardcoreEnderExpansion.Louse
-TwilightForest.Maze Slime
-arcticmobs.yeti
 Thaumcraft.EldritchGuardian
-TwilightForest.WinterWolf
-TwilightForest.Hydra
-Thaumcraft.GiantBrainyZombie
-primitivemobs.SheepmanSmith
-Thaumcraft.BrainyZombie
-TwilightForest.Bighorn Sheep
-Thaumcraft.TravelingTrunk
-primitivemobs.Spider+
-EntityHorse
-Forestry.butterflyGE
-TwilightForest.Troll
-mountainmobs.troll
-demonmobs.nethersoul
-Cow
-TwilightForest.Firefly
-Thaumcraft.EldritchCrab
-minegicka3_Mage
-HardcoreEnderExpansion.HauntedMiner
-demonmobs.cacodemon
-LostHead
-TConstruct.KingSlime
-HardcoreEnderExpansion.CorporealMirage
-Natura.FlameSpider
-OpenBlocks.MiniMe
-TwilightForest.Lower Goblin Knight
-TwilightForest.Redscale Broodling
-TwilightForest.Upper Goblin Knight
-VillagerGolem
-Thaumcraft.EldritchWarden
-CreeperBoss
-plainsmobs.zoataur
+Thaumcraft.CultistPortal
+Thaumcraft.TaintacleTiny
+primitivemobs.MotherSpider
+primitivemobs.Chameleon
+TwilightForest.Twilight Wraith
+HardcoreEnderExpansion.EnderEye
+primitivemobs.FestiveCreeper
+enderzoo.WitherWitch
+Skeleton
 TwilightForest.Slime Beetle
+Thaumcraft.EldritchWarden
+TwilightForest.Yeti
+TwilightForest.Loyal Zombie
+Thaumcraft.Firebat
+TwilightForest.Hydra
+BiomesOPlenty.Glob
+Villager
+TwilightForest.Skeleton Druid
+TwilightForest.Penguin
+Thaumcraft.TaintSwarmer
+Thaumcraft.TaintedCow
+primitivemobs.SheepmanSmith
+TwilightForest.Bighorn Sheep
+primitivemobs.OreGolem
+Thaumcraft.Taintacle
+TwilightForest.Naga
+RandomThings.spirit
+Blaze
+chisel.snowman
+TwilightForest.Hedge Spider
+TwilightForest.Ice Crystal
+BiomesOPlenty.JungleSpider
+Thaumcraft.TaintedPig
+TwilightForest.Redcap Sapper
+BuildCraft|Core.bcRobot
+Spider
+TwilightForest.Helmet Crab
+Slimeling
+primitivemobs.LilyLurker
+EvolvedCreeper
+Silverfish
+TwilightForest.Lower Goblin Knight
+primitivemobs.FilchLizard
+TwilightForest.Forest Squirrel
+Thaumcraft.TaintedVillager
+HardcoreEnderExpansion.ParalyzedEnderman
+Thaumcraft.TaintedCreeper
+TwilightForest.Redcap
+HardcoreEnderExpansion.HauntedMiner
+Natura.FlameSpiderBaby
+PigZombie
+TwilightForest.Hostile Wolf
+TwilightForest.Wild Boar
+TwilightForest.SnowGuardian
+TwilightForest.Twilight Lich
+primitivemobs.GroveSprite
+TwilightForest.Swarm Spider
+HardcoreEnderExpansion.ForestGhost
+TwilightForest.Fire Beetle
+primitivemobs.RocketCreeper
+VillagerGolem
+TwilightForest.Mosquito Swarm
+OpenBlocks.Luggage
+primitivemobs.TravelingMerchant
+EvolvedSpider
+primitivemobs.BabySpider
+Thaumcraft.Pech
 TwilightForest.Lich Minion
+enderzoo.FallenKnight
+Thaumcraft.MindSpider
+Thaumcraft.TaintSpore
+SnowMan
+primitivemobs.Summoner
+Chicken
+TwilightForest.Tower Boss
+TwilightForest.Tower Golem
+Thaumcraft.EldritchCrab
+enderzoo.FallenMount
+primitivemobs.HauntedTool
+HardcoreEnderExpansion.EnderGuardian
+enderzoo.Enderminy
+primitivemobs.BewitchedTome
+Thaumcraft.InhabitedZombie
+TwilightForest.Forest Raven
+LostHead
+primitivemobs.Spider+
+primitivemobs.MimicChest
+TwilightForest.Block&Chain Goblin
+HardcoreEnderExpansion.InfestedBat
+primitivemobs.Sheepman
+Mob
+TwilightForest.Armored Giant
+Natura.NitroCreeper
+Cow
+enderzoo.DireWolf
+Zombie
+Natura.FlameSpider
+HardcoreEnderExpansion.FireFiend
+primitivemobs.BrainSlime
+primitivemobs.TreasureSlime
+MineFactoryReloaded.mfrEntityPinkSlime
+AlienVillager
+Thaumcraft.Golem
+Thaumcraft.TaintedSheep
+TwilightForest.Maze Slime
+Enderman
+Witch
+Forestry.butterflyGE
+TwilightForest.Forest Bunny
+TwilightForest.Pinch Beetle
+BiomesOPlenty.Pixie
+witherSkeleton
+Slime
+Bat
+TwilightForest.Tower Termite
+TwilightForest.Minoshroom
+MushroomCow
+TwilightForest.Twilight Kobold
+CreeperBoss
+Ozelot
+Pig
+Enderman
+Botania.botania:pixie
+Ghast
+Thaumcraft.TravelingTrunk
+HardcoreEnderExpansion.FireGolem
+Creeper
+TwilightForest.Mist Wolf
+TwilightForest.Snow Queen
+Wolf
+TwilightForest.Knight Phantom
+HardcoreEnderExpansion.Dragon
+TwilightForest.Troll
+TwilightForest.Yeti Boss
+ihl.CollectorEntity
+HardcoreEnderExpansion.AngryEnderman
+Thaumcraft.ThaumSlime
+primitivemobs.Minion
+TwilightForest.Stable Ice Core
+TwilightForest.HydraHead
+TwilightForest.Giant Miner
+TwilightForest.Minotaur
+OpenBlocks.MiniMe
+ihl.CollectorHeavyEntity
+EnderDragon
+Sheep
+TwilightForest.Tiny Bird
+Thaumcraft.TaintSwarm
+Monster
+PneumaticCraft.Drone
+primitivemobs.SkeletonWarrior
+TwilightForest.King Spider
+TwilightForest.Upper Goblin Knight
+Thaumcraft.CultistKnight
+Squid
+Giant
+TwilightForest.Unstable Ice Core
+Thaumcraft.CultistLeader
+Thaumcraft.TaintedChicken
+TwilightForest.Firefly
+HardcoreEnderExpansion.HomelandEnderman
+HardcoreEnderExpansion.EnderDemon
+Thaumcraft.Wisp
+Sludgeling
+Thaumcraft.BrainyZombie
+Thaumcraft.TaintSpider
+primitivemobs.LostMiner
+Thaumcraft.TaintacleGiant
+HardcoreEnderExpansion.Endermage
+primitivemobs.BlazingJuggernaut
+Thaumcraft.GiantBrainyZombie
+TwilightForest.Redscale Broodling
+HardcoreEnderExpansion.BabyEnderman
+TwilightForest.Wild Deer
+EntityHorse
+CaveSpider
+HardcoreEnderExpansion.Louse
+TwilightForest.WinterWolf
+TwilightForest.Tower Ghast
+EvolvedSkeleton
+HardcoreEnderExpansion.ScorchedLens
+Botania.botania:doppleganger
+BiomesOPlenty.Rosester
+TwilightForest.Boggard
+HardcoreEnderExpansion.VampireBat
+enderzoo.ConcussionCreeper
+WitherBoss
+primitivemobs.SupportCreeper
+TwilightForest.Mini Ghast
+Thaumcraft.EldritchGolem
+EvolvedSkeletonBoss
+BiomesOPlenty.Bird
+primitivemobs.Lily
+LavaSlime
+Natura.Imp
+TwilightForest.Death Tome
+enderzoo.WitherCat
+BiomesOPlenty.Wasp
+TwilightForest.Questing Ram
+Thaumcraft.CultistCleric
+EvolvedZombie
