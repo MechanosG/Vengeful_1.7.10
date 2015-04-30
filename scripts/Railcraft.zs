@@ -130,3 +130,8 @@ RockCrusher.addRecipe(marsosmium, 		false, false, [crushedGTOsmium * 2,			oreICI
 RockCrusher.addRecipe(marsnaquadah, 	false, false, [crushedGTNaquadah * 2,		dustGTEnrichedNaquadah],	[1.0, 0.1]);
 RockCrusher.addRecipe(marsruby, 		false, false, [crushedGTRuby * 2,			dustGTChrome], 				[1.0, 0.1]);
 RockCrusher.addRecipe(marsnaquadria, 	false, false, [crushedGTNaquadria * 2,		dustGTNaquadria], 			[1.0, 0.1]);
+
+recipes.remove(<Railcraft:cart.loco.steam.solid>);
+recipes.addShaped(<Railcraft:cart.loco.steam.solid>.withTag({model: "railcraft:default"}) * 1,[[<Railcraft:machine.beta:4>,<Railcraft:machine.beta:4> ,<gregtech:gt.blockmachines:4> ]
+,[<Railcraft:machine.beta:4>,<Railcraft:machine.beta:4> ,<gregtech:gt.blockmachines:4> ],
+[<minecraft:iron_bars>,<minecraft:minecart> ,<minecraft:minecart> * 1]]);

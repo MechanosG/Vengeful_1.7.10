@@ -18,6 +18,10 @@
     <name>JABBA:mover</name>
     <name>RandomThings:playerinterface</name>
     <name>ExtraUtilities:dark_portal</name>
+	<name>Botania:enderHand</name>
+	<name>minecraft:obsidian</name>
+	<name>MineFactoryReloaded:machine.2:7</name>
+	<name>ExtraUtilities:dark_portal:2</name>
 </dimension-id>
 
 <dimension-id DimensionId="-29">
@@ -36,6 +40,10 @@
     <name>JABBA:mover</name>
     <name>RandomThings:playerinterface</name>
     <name>ExtraUtilities:dark_portal</name>
+	<name>Botania:enderHand</name>
+	<name>minecraft:obsidian</name>
+	<name>MineFactoryReloaded:machine.2:7</name>
+	<name>ExtraUtilities:dark_portal:2</name>
 </dimension-id>
 
 <dimension-id DimensionId="-30">
@@ -54,6 +62,10 @@
     <name>JABBA:mover</name>
     <name>RandomThings:playerinterface</name>
     <name>ExtraUtilities:dark_portal</name>
+	<name>Botania:enderHand</name>
+	<name>minecraft:obsidian</name>
+	<name>MineFactoryReloaded:machine.2:7</name>
+	<name>ExtraUtilities:dark_portal:2</name>
 </dimension-id>
 
 </root>

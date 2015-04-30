@@ -13,4 +13,4 @@ Left double 2.0 at 2.0
 
 Changed double 0.15 to -0.3
 Changed double 0.25 to -0.5
-(the node should greatly repel things)
+(the node greatly repel things)
