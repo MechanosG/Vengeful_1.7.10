@@ -71,8 +71,15 @@ recipes.remove(<gregtech:gt.metaitem.01:11019>);
 # recipes.removeShaped(<gregtech:gt.metaitem.01:17019>);
 # recipes.removeShaped(<gregtech:gt.metaitem.01:23019>);
 
-# Aluminum renaming, to prevent confusion
+# Aluminum renaming, to prevent confusion, cuz why not
 <TConstruct:materials:11>.displayName = "Crude Aluminum Ingot";
 <TConstruct:materials:22>.displayName = "Crude Aluminum Nugget";
 <TConstruct:GravelOre:4>.displayName = "Alunogen Gravel Ore";
 <TConstruct:SearedBrick:5>.displayName = "Alunogen Ore";
+
+# Aluminum compatibility with other mods
+<ore:dustAluminium>.addAll(<ore:dustAluminum>);
+<ore:dustAluminum>.mirror(<ore:dustAluminium>);
+
+<ore:oreAluminium>.addAll(<ore:oreAluminum>);
+<ore:oreAluminum>.mirror(<ore:oreAluminium>); 
