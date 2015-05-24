@@ -70,3 +70,9 @@ recipes.remove(<gregtech:gt.metaitem.01:11019>);
 # Remove Using TiCo Aluminum for Gregtech
 # recipes.removeShaped(<gregtech:gt.metaitem.01:17019>);
 # recipes.removeShaped(<gregtech:gt.metaitem.01:23019>);
+
+# Aluminum renaming, to prevent confusion
+<TConstruct:materials:11>.displayName = "Crude Aluminum Ingot";
+<TConstruct:materials:22>.displayName = "Crude Aluminum Nugget";
+<TConstruct:GravelOre:4>.displayName = "Alunogen Gravel Ore";
+<TConstruct:SearedBrick:5>.displayName = "Alunogen Ore";
