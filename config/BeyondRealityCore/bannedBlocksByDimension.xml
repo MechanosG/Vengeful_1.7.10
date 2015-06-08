@@ -22,6 +22,7 @@
 	<name>minecraft:obsidian</name>
 	<name>MineFactoryReloaded:machine.2:7</name>
 	<name>ExtraUtilities:dark_portal:2</name>
+	<name>EnderIO:blockTelePad</name>
 </dimension-id>
 
 <dimension-id DimensionId="-29">
@@ -44,6 +45,7 @@
 	<name>minecraft:obsidian</name>
 	<name>MineFactoryReloaded:machine.2:7</name>
 	<name>ExtraUtilities:dark_portal:2</name>
+	<name>EnderIO:blockTelePad</name>
 </dimension-id>
 
 <dimension-id DimensionId="-30">
@@ -66,6 +68,7 @@
 	<name>minecraft:obsidian</name>
 	<name>MineFactoryReloaded:machine.2:7</name>
 	<name>ExtraUtilities:dark_portal:2</name>
+	<name>EnderIO:blockTelePad</name>
 </dimension-id>
 
 </root>
