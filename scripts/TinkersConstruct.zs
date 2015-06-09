@@ -85,4 +85,4 @@ recipes.remove(<gregtech:gt.metaitem.01:11019>);
 <ore:oreAluminum>.mirror(<ore:oreAluminium>); 
 
 # Drying Rack - not sure what's removing it's recipe, since it doesn't make leather anymore?
-recipes.addShapeless(TConstruct:Armor.DryingRack, [[ore:slabWood, ore:slabWood, ore:slabWood]]);
+recipes.addShaped(TConstruct:Armor.DryingRack, [[ore:slabWood, ore:slabWood, ore:slabWood]]);
