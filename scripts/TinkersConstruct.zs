@@ -55,13 +55,32 @@ recipes.addShaped(<TConstruct:CraftingSlab:5>, [[<TConstruct:Smeltery:2>,<TConst
                                                 [<TConstruct:MetalBlock:1>,<TConstruct:CraftingSlab:1>,<TConstruct:MetalBlock:1>],
                                                 [<TConstruct:MetalBlock:1>,null,<TConstruct:MetalBlock:1>]]);
 recipes.addShaped(<TConstruct:CraftingSlab:5>, [[<TConstruct:ToolForgeBlock:*>,null,null],[null,null,null],[null,null,null]]);
-                                                
+ 
+# Aluminum compatibility with other mods
+# Remove ability to melt aluminum ore/dust in smeltery - require ingots
+# mods.tconstruct.Smeltery.removeMelting(<TConstruct:oreBerries:4>);
+# mods.tconstruct.Smeltery.removeMelting(<ore:dustAluminum>);
+mods.tconstruct.Smeltery.removeMelting(<ore:dustAluminium>);
+# mods.tconstruct.Smeltery.removeMelting(<ore:nuggetAluminum>);
+mods.tconstruct.Smeltery.removeMelting(<ore:nuggetAluminium>);
+# mods.tconstruct.Smeltery.removeMelting(<ore:oreAluminum>);
+mods.tconstruct.Smeltery.removeMelting(<ore:oreAluminium>);
+# mods.tconstruct.Smeltery.removeMelting(<ore:oreNaturalAluminum>);
 
-val alu = <ore:nuggetAluminium>;
-# alu.remove(<TConstruct:materials:22>);
-alu.remove(<TConstruct:oreBerries:4>);
+#<ore:dustAluminium>.addAll(<ore:dustAluminum>);
+#<ore:dustAluminum>.mirror(<ore:dustAluminium>);
+#<ore:oreAluminium>.addAll(<ore:oreAluminum>);
+#<ore:oreAluminum>.mirror(<ore:oreAluminium>);  
+
+# Change Aluminum oreberries to act like dust
+#val alu = <ore:nuggetAluminium>;
+#val alu2 = <ore:nuggetAluminum>;
+#val alu3 = <ore:dustTinyAluminium>;
+#alu.remove(<TConstruct:oreBerries:4>);
+#alu2.remove(<TConstruct:oreBerries:4>);
+#alu3.add(<TConstruct:oreBerries:4>);
                                                 
-# Ore Berries and Nuggets
+# Ore Berries and Nuggets use Blast Furnace instead
 recipes.remove(<gregtech:gt.metaitem.01:11019>);
 # recipes.addShaped(<TConstruct:materials:11>, [[<TConstruct:oreBerries:4>,<TConstruct:oreBerries:4>,<TConstruct:oreBerries:4>],
 #                                                        [<TConstruct:oreBerries:4>,<TConstruct:oreBerries:4>,<TConstruct:oreBerries:4>],
@@ -72,17 +91,10 @@ recipes.remove(<gregtech:gt.metaitem.01:11019>);
 # recipes.removeShaped(<gregtech:gt.metaitem.01:23019>);
 
 # Aluminum renaming, to prevent confusion, cuz why not
-<TConstruct:materials:11>.displayName = "Crude Aluminum Ingot";
-<TConstruct:materials:22>.displayName = "Crude Aluminum Nugget";
+#<TConstruct:materials:11>.displayName = "Crude Aluminum Ingot";
+#<TConstruct:materials:22>.displayName = "Crude Aluminum Nugget";
 <TConstruct:GravelOre:4>.displayName = "Alunogen Gravel Ore";
 <TConstruct:SearedBrick:5>.displayName = "Alunogen Ore";
-
-# Aluminum compatibility with other mods
-<ore:dustAluminium>.addAll(<ore:dustAluminum>);
-<ore:dustAluminum>.mirror(<ore:dustAluminium>);
-
-<ore:oreAluminium>.addAll(<ore:oreAluminum>);
-<ore:oreAluminum>.mirror(<ore:oreAluminium>); 
 
 # Drying Rack, not sure what's removing it's recipe, since it doesn't make leather anymore?
 recipes.addShaped(<TConstruct:Armor.DryingRack>, [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
