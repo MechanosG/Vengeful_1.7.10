@@ -58,14 +58,14 @@ recipes.addShaped(<TConstruct:CraftingSlab:5>, [[<TConstruct:ToolForgeBlock:*>,n
  
 # Aluminum compatibility with other mods
 # Remove ability to melt aluminum ore/dust in smeltery - require ingots
-# mods.tconstruct.Smeltery.removeMelting(<TConstruct:oreBerries:4>);
-# mods.tconstruct.Smeltery.removeMelting(<ore:dustAluminum>);
+mods.tconstruct.Smeltery.removeMelting(<TConstruct:oreBerries:4>);
+mods.tconstruct.Smeltery.removeMelting(<ore:dustAluminum>);
 mods.tconstruct.Smeltery.removeMelting(<ore:dustAluminium>);
-# mods.tconstruct.Smeltery.removeMelting(<ore:nuggetAluminum>);
+mods.tconstruct.Smeltery.removeMelting(<ore:nuggetAluminum>);
 mods.tconstruct.Smeltery.removeMelting(<ore:nuggetAluminium>);
-# mods.tconstruct.Smeltery.removeMelting(<ore:oreAluminum>);
+mods.tconstruct.Smeltery.removeMelting(<ore:oreAluminum>);
 mods.tconstruct.Smeltery.removeMelting(<ore:oreAluminium>);
-# mods.tconstruct.Smeltery.removeMelting(<ore:oreNaturalAluminum>);
+mods.tconstruct.Smeltery.removeMelting(<ore:oreNaturalAluminum>);
 
 #<ore:dustAluminium>.addAll(<ore:dustAluminum>);
 #<ore:dustAluminum>.mirror(<ore:dustAluminium>);
